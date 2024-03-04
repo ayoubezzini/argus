@@ -1,3 +1,7 @@
+[![Tests](https://github.com/ayoubezzini/argus/actions/workflows/tests.yml/badge.svg)](https://github.com/ayoubezzini/argus/actions/workflows/tests.yaml)
+[![Total Downloads](https://img.shields.io/packagist/dt/yiiy/argus.svg?style=flat-square)](https://packagist.org/packages/yiiy/argus)
+[![License](https://img.shields.io/github/license/ayoubezzini/argus?style=flat-square)](https://github.com/ayoubezzini/argus/blob/master/LICENCE)
+
 # Lightweight PHP Data Validator
 
 Argus is a PHP package designed to simplify and streamline data validation tasks in your applications. It offers a comprehensive set of validation rules to ensure the integrity and accuracy of your data.
@@ -64,4 +68,4 @@ if (empty($errors)) {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENCE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.

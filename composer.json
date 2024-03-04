@@ -1,0 +1,50 @@
+{
+    "name": "yi/argus",
+    "description": "Lightweight PHP Data Validator",
+    "keywords": [
+        "validation",
+        "validator",
+        "lightweight"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayoub EZZINI",
+            "homepage": "https://github.com/ayoubezzini"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yi\\Argus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test:types": "phpstan analyse --ansi",
+        "test:unit": "pest --colors=always",
+        "test": [
+            "@test:types",
+            "@test:unit"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

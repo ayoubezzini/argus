@@ -14,7 +14,7 @@ Argus is a PHP package designed to simplify and streamline data validation tasks
 You can install the package using Composer:
 
 ```bash
-composer require yi/argus
+composer require yiiy/argus
 ```
 
 ## Usage
